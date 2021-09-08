@@ -1,0 +1,64 @@
+*{
+    font-size: 8px;
+    padding: 0px;
+}
+body{
+    padding: 0px;
+}
+header{
+    padding: 50px 20px 0px 20px;
+}
+.event-name{
+    font-size: 3.5rem;
+}
+.right-col{
+    width: 100%;
+}
+#menus{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    display: none;
+    padding-bottom: 100px;
+}
+/* #menus li{
+    
+} */
+.venue-date{
+    display: none;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    margin-top: -50px;
+}
+.menu img{
+    width: 110px;
+    position: absolute;
+    top:20;
+    right: 0;
+}
+.container-1{
+    /* margin: 40px 0px; */
+    padding: 20px 10px;
+}
+.second{
+    width: 100%;
+    margin: 0px;
+}
+.container-2{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-2{
+    width: 50%;
+}
+.col-2 .image{
+    height: 100%;
+    width: 100%;
+}
